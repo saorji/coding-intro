@@ -196,8 +196,8 @@ console.log(total);
 
 // CODE HERE
 hulu = 0;
-peacock = 5;
-netflix = 8;
+peacock -= 5;
+netflix -= 7;
 
 
 
@@ -215,7 +215,7 @@ netflix = 8;
 */
 
 // CODE HERE
-
+let newTotal = netflix + hulu + disney + youTubePremium + peacock
 
 
 
@@ -230,8 +230,8 @@ netflix = 8;
     and compare the numbers.
 */
 
-// console.log('Total: ', total)
-// console.log('New Total: ', newTotal)
+console.log('Total: ', total)
+console.log('New Total: ', newTotal)
 
 /*
     What is happening here? When we run a file 
@@ -271,7 +271,8 @@ netflix = 8;
 */
 
 // CODE HERE
-
+let savings = (1 - (newTotal / total)) * 100
+console.log(savings);
 
 
 
